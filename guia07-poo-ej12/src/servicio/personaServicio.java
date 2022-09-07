@@ -35,8 +35,8 @@ public class personaServicio {
     
     public  int  calcularEdad (persona cE) {
         Date fechahoy = new Date ();
-        int calcTiempo;
-        calcTiempo = fechahoy.getYear() - cE.getfNacimiento().getYear();
+        //int calcTiempo;
+        int calcTiempo = fechahoy.getYear() - cE.getfNacimiento().getYear();
         
         return calcTiempo;
     }

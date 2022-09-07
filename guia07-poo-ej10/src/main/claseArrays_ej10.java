@@ -5,24 +5,17 @@
  */
 package main;
 
-import entidad.cadena;
-import servicio.cadenaServicio;
-
 /**
  *
  * @author LMACHADO
  */
-public class poo_ejercicio07 {
+public class claseArrays_ej10 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        cadena c = new cadena ();
-        cadenaServicio cs = new cadenaServicio ();
-        
-        cs.setCadena(c);
-        
+        // TODO code application logic here
     }
     
 }

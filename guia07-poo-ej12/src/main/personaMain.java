@@ -20,7 +20,6 @@ public class personaMain {
     public static void main(String[] args) {
         persona p = new persona ();
         personaServicio ps = new personaServicio();
-        int Edad;
         
         ps.crearPersona(p);
         System.out.println(ps.mostrarPersona(p));
